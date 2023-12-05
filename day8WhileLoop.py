@@ -9,7 +9,6 @@ user_guess = int(input("Inter Your Number from 1 to 9: ")) # Here I'm taking a n
 random_number = random.randint(1 , 9)    # # Here I'm generating a random number from 1 to 9
 
 attempts = 0    # This variable used for 3 tries to guess the random number
-print(random_number)
 while(attempts < max_attempts):    # This while loop will repeat the process of entering the number for three times if the user does not guess the correct number
 
     if(user_guess == random_number):   # If the user guesses the correct number, this message will be displayed
